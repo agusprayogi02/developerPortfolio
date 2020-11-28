@@ -24,7 +24,7 @@ export default function Projects() {
       request: (operation) => {
         operation.setContext({
           headers: {
-            authorization: `Bearer e9cd45f4c789f5989cd87606bd989d9f1bb89d2b`,
+            authorization: `Bearer ${openSource.githubConvertedToken}`,
           },
         });
       },
